@@ -1,0 +1,18 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.example</groupId>
+    <artifactId>parent-project</artifactId>
+    <version>1.0</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>consumer</module> <!-- Include the submodule here -->
+        <module>producer</module> <!-- Include the submodule here -->
+    </modules>
+
+    <!-- Define common properties, dependencies, and plugins here -->
+
+    <build>
+        <!-- Define build settings here -->
+    </build>
+</project>
